@@ -166,7 +166,6 @@ html{
     display: flex;
 }
 #services .box{ 
-    border: 2px solid greenyellow;
     padding: 34px;
     margin: 2px 55px;
     border-radius: 28px;
@@ -205,6 +204,7 @@ html{
     margin: 2px 55px;
     background: #f2f2f2;
     margin-bottom: 20px;
+    box-shadow: 0px 9px 20px #334874;
 }
 #menus .box2 img{ 
     height: 403px;
