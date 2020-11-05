@@ -183,11 +183,13 @@ html{
 #services .box {
     font-family: 'Bree Serif', serif;
     color: white;
-    box-shadow: 0px 13px 20px 0px black;
-}
+    transition: transform 0.2s ease-in;
+    box-shadow: -1px 9px 20px #b24141b5;
+
+} 
 
  #services-container .box:hover{
-     transform: scale(1.3);
+    transform: translateY(-15px);
  }
  #menus{
     margin: 34px;
