@@ -246,6 +246,11 @@ html{
 
 #clients img{
     height: 124px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in;
+}
+#clients img:hover{
+    transform: translateY(-15px);
 }
 
 
